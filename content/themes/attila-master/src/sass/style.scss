@@ -45,7 +45,7 @@ input,
 button,
 select,
 textarea {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	transition: all ease-out 0.2s;
 }
 
@@ -67,7 +67,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility;
 	color: $color-black;
 }
@@ -130,7 +130,7 @@ ol>li:before {
 	position: absolute;
 	width: 1.5em;
 	margin-left: -2em;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
 	font-weight: 500;
 	line-height: 1.5em;
@@ -217,7 +217,7 @@ dl {
 }
 
 dl dt {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 0.75em;
 	line-height: 1.25em;
@@ -338,7 +338,7 @@ table td {
 }
 
 table th {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 0.75em;
 	line-height: 1.25em;
@@ -597,7 +597,7 @@ img {
 	margin-bottom: 1em;
 	padding: 0.5em 1.25em;
 	border: 1px solid $color-blue-80;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 0.75em;
 	line-height: 1.667em;
 	text-shadow: none;
@@ -651,7 +651,7 @@ img {
 	border-left: 1px solid $color-gray-90;
 	z-index: 400;
 	overflow: hidden;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	box-shadow: inset -2px 0 7px rgba(0, 0, 0, 0.1);
 	transform: translate3d(16em, 0, 0);
 	transition: all ease-out 0.25s;
@@ -828,7 +828,7 @@ img {
 #footer {
 	position: relative;
 	z-index: 20;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 1em;
 	padding-bottom: 6em;
 }
@@ -1053,14 +1053,15 @@ h2.post-title:after {
 	z-index: 10;
 	display: block;
 	margin-bottom: 1.334em;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 0.75em;
 	font-weight: 400;
 	line-height: 1.334em;
 	opacity: 0.5;
+}
+.home-template .post-meta{
 	padding-left: 15px;
 }
-
 .has-cover .post-meta {
 	color: $color-white;
 	opacity: 0.75;
@@ -1161,7 +1162,7 @@ h2.post-title:after {
 .post-tags {
 	max-width: 75%;
 	float: left;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .post-tags a {
@@ -1194,7 +1195,7 @@ h2.post-title:after {
 .post-author {
 	position: relative;
 	margin: 2em 0 0;
-	padding: 2em 0;
+	padding: 1em 0;
 	z-index: 10;
 	border-top: 1px solid $color-gray-90;
 	border-bottom: 1px solid $color-gray-90;
@@ -1226,7 +1227,7 @@ h2.post-title:after {
 
 .post-author-bio {
 	padding-left: 10em;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 0.75em;
 	line-height: 1.334em;
 	@media only screen and (max-width: 480px) {
@@ -1296,7 +1297,7 @@ h2.post-title:after {
 	margin: 0;
 	padding: 0.5em 1.25em;
 	border: 1px solid $color-blue-80;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 0.75em;
 	line-height: 1.334em;
 	color: $color-blue-60;
@@ -1468,8 +1469,8 @@ h2.post-title:after {
 	position: relative;
 	height: 2em;
 	margin: 0;
-	padding: 2em 0;
-	font-family: 'Fira Sans', sans-serif;
+	padding: 1em 0;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .pagination:after {
